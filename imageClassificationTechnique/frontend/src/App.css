@@ -1,0 +1,47 @@
+.app {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.header {
+    border-bottom: 1px solid #1677ff;
+    padding-bottom: 8px;
+}
+
+.img-preview {
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.img-preview img {
+    border-radius: 8px;
+}
+
+.result-box {
+    border: 1px solid #1677ff;
+    padding: 8px 4px 16px;
+    border-radius: 8px;
+}
+
+.result {
+    border-bottom: 1px solid #1677ff;
+    padding-bottom: 2px;
+    font-size: 18px;
+}
+
+.loader-box {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.edit-url {
+    position: fixed;
+    top: 8px;
+    right: 10px;
+}
